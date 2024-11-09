@@ -6,7 +6,7 @@ import Contact from "./pages/contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./styles/styles.scss";
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -19,5 +19,3 @@ function App() {
     </BrowserRouter>
   );
 }
-
-export default App;
