@@ -4,6 +4,7 @@ import Services from "./pages/services";
 import Info from "./pages/info";
 import Contact from "./pages/contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./styles/styles.scss";
 
 function App() {
   return (
