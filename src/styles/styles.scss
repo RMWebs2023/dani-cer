@@ -1,6 +1,11 @@
-// settings
 
 
 // components
 @forward "./components/home";
 @forward "./components/navbar";
+@forward "./components/footer";
+
+// settings
+* {
+    margin: 0;
+}
