@@ -3,7 +3,5 @@
 
 // components
 
-@import "./components/home";
-@import "./components/navbar";
 @forward "./components/home";
 @forward "./components/navbar";
