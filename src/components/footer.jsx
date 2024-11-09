@@ -1,3 +1,8 @@
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaWhatsappSquare } from "react-icons/fa";
+
 const Footer = () => {
     return(
         <footer className="footer-distributed">
@@ -35,10 +40,10 @@ const Footer = () => {
 				</p>
                 
 				<div className="footer-icons">
-					<a href="#"><i className="fa fa-facebook"></i></a>
-					<a href="#"><i className="fa fa-twitter"></i></a>
-					<a href="#"><i className="fa fa-linkedin"></i></a>
-					<a href="#"><i className="fa fa-github"></i></a>
+					<a href="#"><FaFacebookSquare className="icons"/></a>
+					<a href="#"><FaSquareXTwitter className="icons"/></a>
+					<a href="#"><FaLinkedin className="icons"/></a>
+					<a href="#"><FaWhatsappSquare className="icons"/></a>
 				</div>
 			</div>
 		</footer>
